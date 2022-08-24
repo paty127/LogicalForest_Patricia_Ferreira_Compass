@@ -1,0 +1,25 @@
+{
+  "name": "logicalforest_patricia_ferreira_compass",
+  "version": "1.0.0",
+  "description": "Repositorio criado para o  Challenge da Sprint 4",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/paty127/LogicalForest_Patricia_Ferreira_Compass.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/paty127/LogicalForest_Patricia_Ferreira_Compass/issues"
+  },
+  "homepage": "https://github.com/paty127/LogicalForest_Patricia_Ferreira_Compass#readme",
+  "devDependencies": {
+    "chai": "^4.3.6",
+    "mocha": "^10.0.0"
+  }
+}
