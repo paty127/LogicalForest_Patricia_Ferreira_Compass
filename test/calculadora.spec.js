@@ -39,4 +39,17 @@ describe('Testes de divisão', () =>{
         expect(resultado).to.be.eq(0.8)
     })
 })
+  
+describe('Testes de raiz quadrada', () =>{
+    it('Deve verificar se a raiz quadrada de 9 é um quadrado perfeito', () =>{
+        let resultado =Calculadora.raizQuadrada(9)
+        expect(resultado).to.be.eq(true)
+    })
+})
 
+describe('Testes raio', () =>{
+    it('Deve verificar o raio de 10 resultando em 62.83185307179586', () =>{
+        let resultado =Calculadora.Circunferencia(10)
+        expect(resultado).to.be.eq(62.83185307179586)
+    })
+})
