@@ -16,6 +16,18 @@ it('Deve somar -4 e 5 resultando em 1', () =>{
     expect(resultado).to.be.eq(1)
 
     }) 
+
+    it('Deve somar -4 e -5 resultando em -9', () =>{
+        let resultado =Calculadora.soma(-4, -5)
+        expect(resultado).to.be.eq(-9)
+    
+        }) 
+
+        it('Deve somar -4 e 0.5 resultando em 1', () =>{
+            let resultado =Calculadora.soma(4, 0.5)
+            expect(resultado).to.be.eq(4.5)
+        
+            }) 
 }) 
 
 describe('Testes de subtração', () =>{
@@ -24,6 +36,20 @@ describe('Testes de subtração', () =>{
         expect(resultado).to.be.eq(-1)
        
     })
+    it('Deve subtrair -10 e -5 resultando em -5', () =>{
+        let resultado =Calculadora.sub(-10, -5)
+        expect(resultado).to.be.eq(-5)
+})
+
+it('Deve subtrair -10 e -5 resultando em -15', () =>{
+    let resultado =Calculadora.sub(-10, -5)
+    expect(resultado).to.be.eq(-5)
+
+})
+it('Deve subtrair -5 e 1555 resultando em -1550', () =>{
+    let resultado =Calculadora.sub(-5, 1555)
+    expect(resultado).to.be.eq(-1560)
+})
 })
 
     describe('Testes de multiplicação', () =>{
@@ -53,3 +79,29 @@ describe('Testes raio', () =>{
         expect(resultado).to.be.eq(62.83185307179586)
     })
 })
+
+describe('Testes potencia  ', () =>{
+    it('Deve verificar se a potencia quadrada de 2 é 4', () =>{
+        let resultado =Calculadora.potencia(2,2)
+        expect(resultado).to.be.eq(4)
+    })
+
+    it('Deve verificar se a potencia cubica  de 4 é 64', () =>{
+        let resultado =Calculadora.potencia(4,3)
+        expect(resultado).to.be.eq(64)
+})
+
+it('Deve verificar se 5^5  de 5 é 3125', () =>{
+    let resultado =Calculadora.potencia(5,5)
+    expect(resultado).to.be.eq(3125)
+
+})
+
+it('Deve verificar se 5^-4  de 5 é 3125', () =>{
+    let resultado =Calculadora.potencia(5,-4)
+    expect(resultado).to.be.eq(0.0015999999999999999)
+
+})
+})
+
+
