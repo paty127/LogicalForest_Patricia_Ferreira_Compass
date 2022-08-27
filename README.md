@@ -11,7 +11,7 @@ BDD é técnica de desenvolvimento ágil que visa integrar regras de negócios c
 
 O objetivo do projeto é demosntrar o teste com as funções de uma calculadora utilizando Mocha e Chai.
 
-<span style="display:block;text-align:center">![chai](https://user-images.githubusercontent.com/65580919/187051089-ae1dfb36-22c9-4cf4-932f-45b9fb4f2c96.svg)</span>
+<span style="display:block;text-align:center" width="400" height="790">![chai](https://user-images.githubusercontent.com/65580919/187051089-ae1dfb36-22c9-4cf4-932f-45b9fb4f2c96.svg)</span>
 
  Chai é uma excelente biblioteca de asserção que auxilia os desenvolvedores Node.Js para realização, não somente de TDD mas de BDD também
 
