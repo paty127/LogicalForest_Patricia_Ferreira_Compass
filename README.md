@@ -22,7 +22,8 @@ Mocha tem muitos recursos interessantes:
 <li>before, after, beforeEach, afterEachGanchos, etc.</li>
 
 <h2>Chai</h2>
-Para fazer verificações de igualdade ou comparar os resultados esperados com os resultados reais, podemos usar o módulo de asserção interno do Node.js. No entanto, quando ocorre um erro, os casos de teste ainda serão aprovados. Portanto, Mocha recomenda usar outras bibliotecas de asserção e, para este tutorial, usaremos Chai .
+    
+O Chai possui várias interfaces que permitem ao desenvolvedor escolher a mais confortável. Os estilos BDD com capacidade de cadeia fornecem uma linguagem expressiva e um estilo legível, enquanto o estilo assert TDD fornece uma sensação mais clássica.
 
 Chai expõe três interfaces de asserção: expect(), assert() e should(). Qualquer um deles pode ser usado para afirmações.
 
@@ -63,3 +64,21 @@ static soma(a, b) {
 
 
   1 passing (16ms)
+  
+  
+ <h2> Links úteis:</h2>
+
+VSCode:  https://code.visualstudio.com/download
+
+NodeJS: https://nodejs.org/en/download/
+
+Mocha: https://mochajs.org/
+
+Chai: https://www.chaijs.com/
+
+
+
+
+
+
+
