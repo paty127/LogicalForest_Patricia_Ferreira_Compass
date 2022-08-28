@@ -63,6 +63,17 @@ static soma(a, b) {
 
 
   1 passing (16ms)
+  
+  
+ <h3> Links úteis:</h3>
+​​​​​​​
+VSCode:  https://code.visualstudio.com/download
+
+NodeJS: https://nodejs.org/en/download/
+
+Mocha: https://mochajs.org/
+
+Chai: https://www.chaijs.com/
 
 
 
