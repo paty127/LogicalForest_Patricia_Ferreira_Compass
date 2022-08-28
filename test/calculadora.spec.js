@@ -96,12 +96,20 @@ describe('Testes de raiz quadrada', () => {
         let resultado = Calculadora.raizQuadrada(9)
         expect(resultado).to.be.eq(true)
     })
+    it.only('Deve verificar se a raiz quadrada de 45 é um quadrado perfeito', () => {
+        let resultado = Calculadora.raizQuadrada(45)
+        expect(resultado).to.be.eq(false)
+    })
 })
 
 describe('Testes raio', () => {
     it('Deve verificar o raio de 10 resultando em 62.83', () => {
         let resultado = Calculadora.Circunferencia(10)
         expect(resultado).to.be.eq(62.83185307179586)
+    })
+    it.only('Deve verificar o raio de 250 resultando em ', () => {
+        let resultado = Calculadora.Circunferencia(250)
+        expect(resultado).to.be.eq(1570.7963267948965)
     })
 })
 
