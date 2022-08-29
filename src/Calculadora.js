@@ -24,5 +24,6 @@ export default class Calculadora {
 
     static potencia(a, b) {
         return Math.pow(a, b)
+
     }
 }

@@ -23,7 +23,7 @@ describe('Testes de soma', () => {
 
     })
 
-    it('Deve somar -4 e 0.5 resultando em 1', () => {
+    it('Deve somar 4 e 0.5 resultando em 4.5', () => {
         let resultado = Calculadora.soma(4, 0.5)
         expect(resultado).to.be.eq(4.5)
 
@@ -61,7 +61,7 @@ describe('Testes de multiplicação', () => {
         let resultado = Calculadora.multiplica(4.5, 5.4)
         expect(resultado).to.be.eq(24.3)
     })
-    it('Deve multiplicar -5 e 4 resultando em 0', () => {
+    it('Deve multiplicar -5 e 4 resultando em -20', () => {
         let resultado = Calculadora.multiplica(-5, 4)
         expect(resultado).to.be.eq(-20)
     })
@@ -77,15 +77,15 @@ describe('Testes de divisão', () => {
         expect(resultado).to.be.eq(0.8)
     })
     
-    it('Deve dividir 4.5 e 5 resultando em 0.8', () => {
+    it('Deve dividir 4.5 e 5 resultando em 0.9', () => {
         let resultado = Calculadora.divide(4.5, 5)
         expect(resultado).to.be.eq(0.9)
     })
-    it('Deve dividir 4.5 e -5 resultando em 0.8', () => {
+    it('Deve dividir 4.5 e -5 resultando em -0.9', () => {
         let resultado = Calculadora.divide(4.5, -5)
         expect(resultado).to.be.eq(-0.9)
     })
-    it('Deve dividir 58 e 9 resultando em 0.8', () => {
+    it('Deve dividir 58 e 9 resultando em 6.444444444444445', () => {
         let resultado = Calculadora.divide(58, 9)
         expect(resultado).to.be.eq(6.444444444444445)
     })
@@ -96,7 +96,7 @@ describe('Testes de raiz quadrada', () => {
         let resultado = Calculadora.raizQuadrada(9)
         expect(resultado).to.be.eq(true)
     })
-    it.only('Deve verificar se a raiz quadrada de 45 é um quadrado perfeito', () => {
+    it('Deve verificar se a raiz quadrada de 45 não é um quadrado perfeito', () => {
         let resultado = Calculadora.raizQuadrada(45)
         expect(resultado).to.be.eq(false)
     })
@@ -107,7 +107,7 @@ describe('Testes raio', () => {
         let resultado = Calculadora.Circunferencia(10)
         expect(resultado).to.be.eq(62.83185307179586)
     })
-    it.only('Deve verificar o raio de 250 resultando em ', () => {
+    it('Deve verificar o raio de 250 resultando em 1570.7963267948965', () => {
         let resultado = Calculadora.Circunferencia(250)
         expect(resultado).to.be.eq(1570.7963267948965)
     })
