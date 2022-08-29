@@ -38,7 +38,7 @@ Chai expõe três interfaces de asserção: expect(), assert() e should(). Qualq
     "test": "mocha}"</b></li>
 
 <li> No terminal do <b>Visual Studio Code</b> digitei: <b>npm i -D mocha chai</b> , para instalar essas bibliotecas como dependência de desenvolvimento após isso apresentara uma nova pasta <b>node_module</b> onde estão insataladas todas as dependências</li> 
-<li> Criei uma pasta chamada <b>test</b> , e dentro dessta pasta criei um arquivo chamada <b>calculadora.spec.js</b> e adcionei os seguintes imports: <b>import assert from 'assert'</b> e <b> import chai from 'chai'</b> </li>
+<li> Criei uma pasta chamada <b>test</b> , e dentro desta pasta criei um arquivo chamada <b>calculadora.spec.js</b> e adcionei os seguintes imports: <b>import assert from 'assert'</b> e <b> import chai from 'chai'</b> </li>
 <h5>Descrevendo o teste</h5>
 <li>Na pasta <b>calculadora.spec.js</b> criei uma constante chamada <b>const expect = chai.expect</b></li>
 <h4>Exemplo de da descrição do test soma</h4>
